@@ -1,0 +1,13 @@
+[package]
+name = "tokio-utils"
+version = "0.1.0"
+authors = ["Daniel Henry-Mantilla <daniel.henry.mantilla@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+proc_macro = { version = "0.1.0", package = "tokio-utils-proc-macro", path = "src/proc_macro/" }
+proc-macro-hack = "0.5.8"
+tokio = "0.1.22"
+
+[dev-dependencies]
+tokio = "0.1.22"
